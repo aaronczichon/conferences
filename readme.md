@@ -7,4 +7,4 @@ Hint: Past talks will be merged into this repository in near future.
 
 ## Conferences
 
-* [BASTA! Fall 2017 - 20 years anniversary](https://github.com/Inoverse/conferences/basta_2017_fall_20years)
+* [BASTA! Fall 2017 - 20 years anniversary](https://github.com/Inoverse/conferences/basta_2017_fall)

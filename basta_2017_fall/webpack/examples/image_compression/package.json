@@ -1,0 +1,15 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.4.2",
+    "webpack": "^3.6.0"
+  }
+}
