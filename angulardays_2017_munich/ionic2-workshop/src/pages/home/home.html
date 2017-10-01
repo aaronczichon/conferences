@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Workshops
+    </ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    Angular Days
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  Hello Angular-Days!
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    <ion-icon name="person"></ion-icon>
+  </p>
+  <button ion-button full color="danger" (click)="goToLogin()" icon-only>
+    <ion-icon name="person" color="primary"></ion-icon>
+  </button>
+  <button ion-button full color="secondary" (click)="setRoot()">Root</button>
+  <button ion-button full color="primary" (click)="showCamera()">Kamera</button>
+  <ion-list>
+    <ion-list-header>
+      Meine Items
+    </ion-list-header>
+    <ion-item *ngFor="let item of items">
+      {{item}}
+    </ion-item>
+    <ion-list-header>
+      Meine Buttons
+    </ion-list-header>
+    <button ion-item (click)="showAlert()">
+     Show Alert
+    </button>
+    <button ion-item (click)="showModal()">
+      Show Modal
+    </button>
+    <ion-item>
+      <ion-card>
+        <ion-card-header>
+          Explore Nearby
+        </ion-card-header>
+
+        <ion-list>
+          <button ion-item>
+      <ion-icon name="cart" item-left></ion-icon>
+      Shopping
+    </button>
+
+          <button ion-item>
+      <ion-icon name="medical" item-left></ion-icon>
+      Hospital
+    </button>
+
+          <button ion-item>
+      <ion-icon name="cafe" item-left></ion-icon>
+      Cafe
+    </button>
+
+          <button ion-item>
+      <ion-icon name="paw" item-left></ion-icon>
+      Dog Park
+    </button>
+
+          <button ion-item>
+      <ion-icon name="beer" item-left></ion-icon>
+      Pub
+    </button>
+
+          <button ion-item>
+      <ion-icon name="planet" item-left></ion-icon>
+      Space
+    </button>
+
+        </ion-list>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    Hello
+  </ion-toolbar>
+  <ion-toolbar>
+    World
+  </ion-toolbar>
+</ion-footer>
