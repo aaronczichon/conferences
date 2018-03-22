@@ -1,0 +1,21 @@
+<ion-menu [content]="mainView" persistent="false">
+    <ion-header>
+        <ion-toolbar>
+            Hi ich bin ein Menu
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <button ion-item [navPush]="page">
+                Sub Page
+            </button>
+            <ion-item-divider>
+                Test
+            </ion-item-divider>
+            <button ion-item (click)="logout()">
+                Ausloggen
+            </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<ion-nav #mainView [root]="rootPage"></ion-nav>
